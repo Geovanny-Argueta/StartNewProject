@@ -80,11 +80,11 @@ img{
     padding: 2rem 0px;
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
 }
 
 .nav-principal a:hover{
-    color: #037bc0;
-    font-weight: 600;
+    color: #54afe4;
 }
 
 .hero{
@@ -117,6 +117,7 @@ img{
 }
 
 .listado-categoria{
+    margin-bottom: 2rem ;
     display: grid;
      grid-template-columns: repeat(3, 1fr);
      gap: 2rem;
@@ -207,7 +208,7 @@ img{
 /*Footer*/
 .site-footer{
     border-top: 1px solid #e1e1e1;
-    margin-top: 5rem;
+    margin-top: 4rem;
     padding-top: 5rem;
 }
 
@@ -230,7 +231,18 @@ img{
     text-align: center;
 }
 
+.nav-footer{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.nav-footer a:hover{
+    color: #54afe4;
+}
+
 /* NOSOTROS*/
+
 .menu-nosotros{
     display: block;
     display: flex;
@@ -240,7 +252,7 @@ img{
 }
 
 .principal-nosotros{
-    margin-top: 8rem;
+    margin-top: 3.5rem;
 }
 
 .grid-nosotros{
@@ -249,7 +261,4 @@ img{
     column-gap: 2.2rem;
 }
 
-.footer-menu-text{
-    margin: 1rem auto;
-}
 
