@@ -3,49 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecomerce-Nosotros</title>
+    <title>Ecomerce-Blog</title>
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/app.css">
+    
 </head>
 <body>
+    
     <header>
         <h1 class="nombre-sitio">Tiendas de <span>Muebles</span></h1>
     </header>
 
     <div class="contenedor-navegacion">
-        <nav class="nav-principal contenedor">
+        <Nav class="nav-principal contenedor">
             <a href="index.html">Inicio</a>
             <a href="nosotros.html">Nosotros</a>
             <a href="tienda.html">Tienda</a>
             <a href="blog.html">Blog</a>
             <a href="galeria.html">Galeria</a>
             <a href="contacto.html">Contacto</a>
-        </nav>
+        </Nav>
     </div>
 
-    <main class="principal-nosotros">
-        <h1 class="text-center">Sobre Nosotros</h1>
-        <div class="grid-nosotros contenedor">
-            <div>
-                <img src="IMG/nosotros.jpg" alt="Sobre Nosostros">
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur itaque harum quidem vero ipsa, architecto impedit delectus ut temporibus. Assumenda facere dicta error adipisci laborum ratione amet alias quis?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur sit dolores dignissimos reiciendis cupiditate deleniti, eveniet et id quas sunt, odit consectetur delectus debitis perspiciatis quo harum ipsam sint.
-                </p>
-            </div>
+<main class="contenido-principal contenedor">
+    <h1 class="text-center">Nuestros Blog</h1>
+    <div>
+        <div>
+            <h1>Guia de Colores</h1>
+            <img src="IMG/nosotros.jpg" alt="Imagen de Nosotros">
         </div>
-    </main>
+        <div>
+            <h1>Otras Entradas Blog</h1>
+            <ul>
+                <li>Guia de Colores</li>
+                <li>Nuevos Modelos 2024</li>
+                <li>Guia para diseño de interiores</li>
+                <li>Guia para diseño de exteriores</li>
+            </ul>
+        </div>
+    </div>
+</main>
 
     <footer class="site-footer">
         <div class="grid-footer contenedor">
-            <div class="footer-menu">
-                <h3 class="footer-menu-text">Categoria</h3>
+            <div>
+                <h3>Categoria</h3>
                 <nav class="footer-menu nav-footer">
                     <a href="">Cocina</a>
                     <a href="">Oficina</a>
@@ -54,8 +59,7 @@
                     <a href="">Dormitorio</a>
                 </nav>
             </div>
-    
-            <div class="footer-menu">
+            <div>
                 <h3>Sobre Nosotros</h3>
                 <nav class="footer-menu nav-footer">
                     <a href="">Nuestra Historia</a>
@@ -65,9 +69,8 @@
                     <a href="">Terminos del Servicio</a>
                 </nav>
             </div>
-    
-            <div class="footer-menu">
-                <h3 class="footer-menu-text">Soporte</h3>
+            <div>
+                <h3>Soporte</h3>
                 <nav class="footer-menu nav-footer">
                     <a href="">Preguntas Frecuentes</a>
                     <a href="">Ayuda en Linea</a>
@@ -75,8 +78,5 @@
                 </nav>
             </div>
         </div>
-       <p class="copyright text-center">Derechos Reservados°</p>
+        <p class="copyright">Derechos Reservados</p>
     </footer>
-
-</body>
-</html>
